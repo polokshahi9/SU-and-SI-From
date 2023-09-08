@@ -10,33 +10,30 @@
 <body>
     <div class="container">
         <div class="form-box">
-            <h1>Sign Up</h1>
-            
+            <h1 id="tittle">Sign Up</h1> 
             <form>
                 <div class="input-group">
-                    <div class="input-field">
+                    <div class="input-field" id="nameField">
                         <i class="ri-user-fill"></i>
                         <input type="text" placeholder="Name">
                     </div>
-
                     <div class="input-field">
                         <i class="ri-mail-fill"></i>
                         <input type="email" placeholder="Email">
                     </div>
-
                     <div class="input-field">
                         <i class="ri-lock-password-fill"></i>
                         <input type="password" placeholder="Password">
                     </div>
-                    <p>Lost Password <a href="">Click Here</a></p>
+                    <p>Lost Password <a href="#">Click Here</a></p>
                 </div>
                 <div class="btn_field">
-                    <button type="button">Sign Up</button>
-                    <button type="button" class="disable">Sign in</button>
+                    <button id="signup_btn" type="button">Sign Up</button>
+                    <button  id="signin_btn" type="button" class="disable">Sign in</button>
                 </div>
             </form>
         </div>
-
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
